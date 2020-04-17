@@ -403,6 +403,7 @@ script:
         aella_get_event_command()
 
   type: python
+  subtype: python2
   commands:
   - name: aella-get-event
     arguments:

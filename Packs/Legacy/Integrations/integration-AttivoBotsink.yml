@@ -795,6 +795,7 @@ script:
         demisto.results(entry)
         logout_status = attivo_api.logout()
   type: python
+  subtype: python2
   commands:
   - name: attivo-check-user
     arguments:

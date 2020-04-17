@@ -680,6 +680,7 @@ script:
             if response.status_code == 200:
                 demisto.results(fileResult(query,response.content))
   type: python
+  subtype: python2
   commands:
   - name: packetsled-get-incidents
     arguments:
